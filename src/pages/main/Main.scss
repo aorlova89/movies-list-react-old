@@ -1,0 +1,60 @@
+.top-menu {
+    background: url("./../../assets/background.jpg");
+    width: 100%;
+}
+
+.search-panel {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.search-form, .search-filters, .show-results {
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-form-input:focus {
+    outline: none;
+}
+
+.search-filters-span {
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.search-form-input {
+    width: 80%;
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+    font-size: 16px;
+}
+
+.search-results {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie-item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.movie-header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.movie-year {
+    font-size: 14px;
+}
